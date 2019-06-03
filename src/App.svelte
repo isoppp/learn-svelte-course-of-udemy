@@ -1,11 +1,6 @@
 <script>
-	export let name;
+  import Header from './UI/Header.svelte';
+
 </script>
 
-<style>
-	h1 {
-		color: purple;
-	}
-</style>
-
-<h1>Hello {name}!</h1>
+<Header />
