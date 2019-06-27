@@ -100,6 +100,7 @@
       id="email"
       label="E-Mail"
       value="{email}"
+      type="email"
       on:input="{event => (email = event.target.value)}"
     />
     <TextInput
